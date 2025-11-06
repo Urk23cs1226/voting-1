@@ -5,7 +5,7 @@ import axios from 'axios'; // Import axios
 const realApiRegister = async (fullName, email, username, password) => {
   try {
     // This URL matches your backend server
-    const response = await axios.post('http://localhost:5000/api/auth/register', {
+    const response = await axios.post('https://voting-1-5cpq.onrender.com', {
       fullName,
       email,
       username,
